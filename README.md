@@ -25,7 +25,12 @@ python3 -m pip install -r requirements.txt
 После скачивания репозитория нужно скачать данные для обучения:
 
 ```bash
-wget [TODO]
+mkdir -p ~/wunder_challenge/data/
+
+wget https://wndr.fun/data/train.npz ~/wunder_challenge/data/.
+wget https://wndr.fun/data/train_small_A.npz ~/wunder_challenge/data/.
+wget https://wndr.fun/data/train_small_B.npz ~/wunder_challenge/data/.
+wget https://wndr.fun/data/train_small_C.npz ~/wunder_challenge/data/.
 ```
 
 Для того, чтобы понять, как устроены данные, откройте jupyter ноутбук `notebooks/Data_introduction.ipynb`. Кроме того, обязательно прочитайте разделы с описанием данных и объяснением того, как работает биржа, на сайте.
