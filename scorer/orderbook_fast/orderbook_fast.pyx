@@ -211,3 +211,17 @@ class EventPlayer:
 
     def __len__(self):
         return len(self.events)
+
+
+#  ---  Not used ---
+class Side:
+    BID = 0
+    ASK = 1
+
+class Action:
+    DELETE = 0
+    ADD = 1
+    MODIFY_AMOUNT = 2
+    DEAL = 3
+    NEW_CHUNK = 10
+# --- END ---
