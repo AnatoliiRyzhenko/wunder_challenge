@@ -12,7 +12,7 @@ DEF ACTION_DEAL = 3
 DEF ACTION_NEW_CHUNK = 10
 
 DEF MIN_PRICE = 0
-DEF MAX_PRICE = 10**10
+DEF MAX_PRICE = 10**9
 
 cdef class Event:
     cdef public:
