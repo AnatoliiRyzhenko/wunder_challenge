@@ -112,7 +112,7 @@ cdef class PriceLevel:
 
 
 cdef class OrderBook:
-    cdef:
+    cdef public:
         int best_price[2]
         list events
         list price_levels
