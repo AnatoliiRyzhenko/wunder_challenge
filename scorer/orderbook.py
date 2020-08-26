@@ -15,7 +15,7 @@ class Action:
     NEW_CHUNK = 10
 
 MIN_PRICE = 0
-MAX_PRICE = 10**10
+MAX_PRICE = 10**9
 
 DEBUG = False
 
