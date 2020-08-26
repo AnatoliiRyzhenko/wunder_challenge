@@ -2,9 +2,10 @@ import sys
 from tqdm import tqdm
 from sklearn.metrics import roc_auc_score
 
-from common import Event
 from orderbook import OrderBook, EventPlayer
 
+# Чтобы использовать быстрый ордербук раскомментируйте строку:
+# from orderbook_fast import OrderBook, EventPlayer
 
 class Scorer:
     def __init__(self, fname):
